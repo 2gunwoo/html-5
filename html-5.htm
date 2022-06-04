@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+        #b1{width: 500px; height: 100px;}
+        #b2{float: left; width: 250px; height: 80px;}
+        #b3{float: left; width: 250px; height: 80px;}
+        .footer {position: absolute;left: 2;bottom: 0;width: 500px;
+        padding: 15px 0;}
+        body{height: 200px;}
+</style>
+      <title>2gunwoo</title>
+</head>
+<body>
+<form>
+  <div id="b1">
+      <fieldset>
+        <legend>login</legend>
+        아 이 디 &nbsp;: <input type="text" name ="id"/><br>
+        비밀번호 : <input type="password" name="passwd"/>
+        <button type="button">로그인</button>
+      </fieldset>
+    </div><hr>
+
+      <div id="b2">
+      <fieldset>
+        <legend>관심항목(중복 가능)</legend><hr>
+        <input type="checkbox" name="coin"/>BIT&nbsp;
+        <img src="BIT.jpg" width="80" height="50"/><hr>
+        <input type="checkbox" name="coin"/>ETH
+        <img src="ETH.jpg" width="80" height="50"/><hr>
+        <input type="checkbox" name="coin"/>NEO
+        <img src="NEO.jpg" width="80" height="50"/><hr>
+        <input type="checkbox" name="coin"/>ADA
+        <img src="ADA.jpg" width="80" height="50"/><hr>
+        <input type="checkbox" name="coin"/>DOT&nbsp;
+        <img src="DOT.jpg" width="80" height="50"/><hr>
+        <input type="checkbox" name="coin"/>EOS&nbsp;
+        <img src="XRP.jpg" width="80" height="50"/><hr>
+        <input type="checkbox" name="coin"/>NEM
+        <img src="NEM.jpg" width="80" height="50" alt="이미지 없음"/><br><br><hr>
+      </fieldset>
+    </div>
+
+    <div id="b3">
+      <fieldset>
+        <legend>거래소(중복가능)</legend><hr>
+        <input type="checkbox" name="sell"/>국내
+        <img src="UP.png" width="80" height="50"/><hr>
+        <input type="checkbox" name="sell"/>국내
+        <img src="BI.png" width="80" height="50"/><hr>
+        <input type="checkbox" name="sell"/>국내
+        <img src="CO.png" width="80" height="50"/><hr>
+        <input type="checkbox" name="sell"/>해외
+        <img src="BIN.png" width="80" height="50"/><hr>
+        <input type="checkbox" name="sell"/>해외
+        <img src="FT.png" width="80" height="50"/><hr>
+        <input type="checkbox" name="sell"/>해외
+        <img src="HU.png" width="80" height="50"/><hr>
+        <input type="checkbox" name="sell"/>해외
+        <img src="NEM.png" width="80" height="50" alt="이미지 없음"/><br><br><hr>
+      </fieldset>
+    </div>
+
+    <div class="footer">
+      <fieldset>
+        <legend>기타사항</legend>
+        <textarea rows="5" cols="50"></textarea>
+      <button type="button" onclick="alert('입력 완료!');">확인</button>
+    </fieldset>
+    </div>
+
+</form>
+</body>
+</html>
